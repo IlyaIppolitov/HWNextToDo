@@ -1,45 +1,40 @@
-h1 {
-    text-align: center;
-  }
-  
-  .container {
-    width: 600px;
-    height: 100%;
-    border: 4px solid black;	
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-  }
-  .newItem {
-      display: flex;
-    height: 30px;
-    width: 100%;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    margin: 20px;
-  }
-  .newItem input {
-    width: 300px;
-    margin: 10px;
-    height: 100%;
-  }
-  .newItem button {
-    width: 100px;
-    margin: 10px;
-    height: 100%;
-  }
-  .totalList {
-    width: 90%;
-  }
-  .todoItem {
+.container {
+  width: 600px;
+  height: 100%;
+  border: 4px solid black;	
     display: flex;
-    padding: 5px;
-    position: relative; 
-  }
-  .todoItem button{
-    position: absolute;
-    right: 0;
-  }
-  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.newItem {
+    display: flex;
+  height: 30px;
+  width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  margin: 20px;
+}
+.newItem input {
+  width: 300px;
+  margin: 10px;
+  height: 100%;
+}
+.newItem button {
+  width: 100px;
+  margin: 10px;
+  height: 100%;
+}
+.totalList {
+  width: 90%;
+}
+.todoItem {
+  display: flex;
+  padding: 5px;
+  position: relative; 
+}
+.todoItem button{
+  position: absolute;
+  right: 0;
+}

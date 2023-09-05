@@ -3,6 +3,7 @@ import FetchUsers from "./FetchUsers";
 
 export default function GetUsers() {
   return <>
+  <div className={styles.container}>
     <table>
       <tr>
           <th>Name</th>
@@ -15,5 +16,6 @@ export default function GetUsers() {
       </tr>
       {<FetchUsers/>} 
     </table>
+  </div>
   </>
 }

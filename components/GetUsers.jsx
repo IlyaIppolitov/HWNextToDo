@@ -1,5 +1,6 @@
 import { useState } from "react";
 import FetchUsers from "./FetchUsers";
+import styles from './GetUsers.module.css'
 
 export default function GetUsers() {
   return <>

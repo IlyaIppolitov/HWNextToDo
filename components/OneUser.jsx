@@ -1,3 +1,5 @@
+import styles from './OneUser.module.css'
+
 export default function OneUser({ user }) {
   const
     { id, name, username, email,
@@ -12,7 +14,7 @@ export default function OneUser({ user }) {
 
   return (
     <>
-      <tr key={id}>
+      <tr className='tableRow' key={id}>
           <td>{name}</td>
           <td>{email}</td>
           <td>{street},{suite}</td>
